@@ -16,11 +16,10 @@
 	</div>
 	<div class = "dynamicCont">
 		<?php include("include/inc_home.php"); ?>
-		<?php include("include/Chinese_Zodiac_for_loop.php"); ?>
 	</div>
 	<div class = "footer"><footer>
 		<?php include("include/inc_footer.php"); ?>
 	</footer></div>
-	
+
 </body>
 </html>

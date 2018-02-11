@@ -6,12 +6,17 @@ for ($i=0; $i < 12; $i++) {
 	echo "<td><img src = 'img/2x/$zodiacArray[$i].png' width='60px'></td>\n";
 }
 echo "</tr> \n";
-for ($row=1912; $row <= 2018; $row++) {
+$row=1912
+while($row <= 2018){
 	echo "<tr>";
-	for ($i = 0; ($i < 12 && $row <= 2018) ; $i++, $row++){
+	$i = 0;
+	while($i < 12 && $row <= 2018){
 		echo "<td>$row</td> \n";
+		$i++;
+		$row++;
 	}
 	echo "</tr> \n";
+	$row++;
 }
 echo "</table>";
 ?>
