@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{AB965452-3301-402B-BD06-1C7A39C39D5C}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Paycheck/Default.aspx">
+    <Files>
+      <File FileName="Paycheck/Default.aspx" Line="11" Column="83" />
+      <File FileName="Paycheck/Default.aspx.cs" Line="12" Column="13" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Paycheck PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
