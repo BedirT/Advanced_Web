@@ -1,0 +1,28 @@
+* {
+	font-style: "Open Sans", 
+}
+
+.buttonNav {
+
+}
+
+.buttonNav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.buttonNav li {
+	display: inline;
+	float: left;
+}
+
+.buttonNav a {
+	display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+.buttonNav li img {
+	width: 150px;
+	height: auto;
+}
