@@ -1,0 +1,7 @@
+Dynamic content is mostly powered by applications and scripts that run on the server hosting the website. When a user makes a request, these applications work in tandem with the web server to parse the request, generate content based on the request, and deliver the content to the user as though it were static content.
+
+Although the result is the same, requesting dynamic content is different than requesting static content. You still need a URL with the asset you wish to access, but the server can interpret the URL in a variety of ways. For example, consider a request for the image rainbow.jpg from the website www.example.com: http://www.example.com/images/rainbow.jpg
+
+You might expect there to be an images/ folder in the web directory containing a file named rainbow.jpg. However, that might not be the case. After a web server receives a request, it passes it on to a scripting language such as ASP.NET, Perl, or PHP. These languages can handle a variety of functions from requesting files from a database to querying third party service providers. Ultimately, the goal of each language is to build an HTML file that the web server can deliver back to the user.
+
+Once the resulting HTML file has been delivered to the web server, the server then forwards the content to the user. The URL of the dynamic content might look something like this: http://www.example.com/images/rainbow.jpg/ ?id=14

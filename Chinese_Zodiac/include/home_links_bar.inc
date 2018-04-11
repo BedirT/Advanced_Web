@@ -1,0 +1,1 @@
+<?php include("include/inc_chinese_zodiac.php"); ?>
